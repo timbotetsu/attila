@@ -216,7 +216,8 @@ dl dd {
 mark {
     background-color: $color-yellow-100;
 }
-p code, tt {
+
+code, tt {
 	position: relative;
 	margin: 0 2px;
 	padding: 3px 4px;
@@ -228,7 +229,7 @@ p code, tt {
 	top: -2px;
 }
 
-pre code {
+code {
 	font-size: 0.85em;
 }
 
@@ -1650,6 +1651,14 @@ pre[class*="language-"] {
 	word-wrap: normal;
 	font-size: 0.85em;
 
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: rgba(0,0,0,0);
+	border: 0;
+	top: 0;
+
+
 	line-height: 1.5;
 
 	-moz-tab-size: 4;
@@ -1762,6 +1771,7 @@ pre[class*="language-"] {
 
 div.code-toolbar {
 	position: relative;
+	margin: 0 0 2em;
 }
 
 div.code-toolbar > .toolbar {

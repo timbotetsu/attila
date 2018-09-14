@@ -108,27 +108,6 @@ jQuery(function($) {
 	gallery();
 
 	/* ==========================================================================
-	   Style code blocks with highlight and numbered lines
-	   ========================================================================== */
-
-	function codestyling() {
-		$('pre code').each(function(i, e) {
-			hljs.highlightBlock(e);
-
-			if(!$(this).hasClass('language-text')) {
-				var code = $(this);
-				var lines = code.html().split(/\n/).length;
-				var numbers = [];
-				for (i = 1; i < lines; i++) {
-					numbers += '<span class="line">' + i + '</span>';
-				}
-				code.parent().append('<div class="lines">' + numbers + '</div>');
-			}
-		});
-	}
-	codestyling();
-
-	/* ==========================================================================
 	   Responsive Videos with Fitvids
 	   ========================================================================== */
 
@@ -155,5 +134,7 @@ jQuery(function($) {
 			});
 			$(this).parent().addClass('activated');
 		});
+
+		$('#show-disqus').click();
 	}
 });

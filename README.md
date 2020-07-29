@@ -2,9 +2,9 @@
 
 A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost/). See a demo at: [attila.zutrinken.com](https://attila.zutrinken.com/)
 
-If you like this theme and want to support future development you can become a [financial contributor](https://paypal.me/zutrinken).
+If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zutrinken).
 
-## Screenshots
+## 📷 Screenshots
 
 <table>
 <tr>
@@ -17,16 +17,16 @@ If you like this theme and want to support future development you can become a [
 </tr>
 </table>
 
-## Features
+## ⭐️ Features
 
 * Responsive layout
 * Dark Mode
-* Search
+* Search & Tag archive
 * Post reading progress
 * Code highlight including line numbers
 * Disqus support
 
-## Localization
+## 🌍 Localization
 
 * __English__
 * __German__
@@ -42,8 +42,39 @@ If you like this theme and want to support future development you can become a [
 * __Swedish__ by [martenj77](https://github.com/martenj77)
 * __Czech__ by [lunakv](https://github.com/lunakv)
 * __Portuguese__ by [matheusvanzan](https://github.com/matheusvanzan)
+* __Vietnamese__ by [JustHmmmm](https://github.com/justhmmmm)
 
-## Setup [Disqus](https://disqus.com/)
+## 🎨 Setup custom color
+
+1. Go to __Code injection__.  
+2. Add this to __Blog Header__:  
+````
+<style>
+  :root {
+    --color-primary: #D95736;
+    --color-primary-active: #BF4526;
+  }
+</style>
+````
+
+## 🔠 Setup custom google fonts
+
+1. Go to [fonts.google.com](https://fonts.google.com/) and choose a font.
+2. Choose __Embed__ and copy the `<link>` code.
+3. Go to __Code injection__.  
+4. Add this to __Blog Header__:  
+````
+<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --font-primary: 'Mukta', sans-serif;
+    --font-secondary: 'Crimson Text', serif;
+  }
+</style>
+````
+
+## 💬 Setup [Disqus](https://disqus.com/)
 
 1. Go to __Code injection__.  
 2. Add this to __Blog Header__:  
@@ -51,7 +82,7 @@ If you like this theme and want to support future development you can become a [
 <script>var disqus = 'YOUR_DISQUS_SHORTNAME';</script>
 ````
 
-## Setup search
+## 🔍 Setup search
 
 The search function is build with [ghostHunter](https://github.com/jamalneufeld/ghostHunter):
 
@@ -66,7 +97,7 @@ The search function is build with [ghostHunter](https://github.com/jamalneufeld/
   var ghost_root_url = '/ghost/api/v2';
 </script>
 ````
-## Development
+## ⚙️ Development
 
 Install [Grunt](https://gruntjs.com/getting-started/):
 
@@ -84,6 +115,6 @@ The compress Grunt task packages the theme files into `dist/<theme-name>.zip`, w
 
 	grunt compress
 
-## Copyright & License
+## ⚖️ Copyright & License
 
 Copyright (C) 2015-2020 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).

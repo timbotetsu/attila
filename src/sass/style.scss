@@ -29,7 +29,7 @@ html.menu-active {
 }
 
 body {
-	font: 400 1em / 1.5em 'Noto Sans SC', serif;
+	font: 400 1em / 1.5em 'Noto Serif SC', serif;
 	color: $color-text-primary;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -70,7 +70,7 @@ textarea {
 	h5,
 	h6 {
 		line-height: 1.25em;
-		margin: 0 0 4rem;
+		margin: 0 0 2rem;
 		text-rendering: optimizeLegibility;
 		color: #000;
 		@media (prefers-color-scheme: dark) {
@@ -112,14 +112,14 @@ textarea {
 	}
 
 	p {
-		font-family: 'Noto Sans SC', serif;
-		margin: 0 0 4rem;
+		font-family: 'Noto Serif SC', serif;
+		margin: 0 0 2rem;
 	}
 
 	ol,
 	ul {
-		font-family: 'Noto Sans SC', serif;
-		margin: 0 0 4rem;
+		font-family: 'Noto Serif SC', serif;
+		margin: 0 0 2rem;
 		padding-left: 2em;
 		box-sizing: border-box;
 	}
@@ -142,7 +142,7 @@ textarea {
 		line-height: 1.5em;
 		text-align: right;
 		color: $color-primary;
-		font-family: 'Noto Sans SC', sans-serif;
+		font-family: 'Noto Serif SC', sans-serif;
 	}
 
 	ul > li:before {
@@ -181,7 +181,7 @@ textarea {
 	}
 
 	blockquote {
-		font-family: 'Noto Sans SC', serif;
+		font-family: 'Noto Serif SC', serif;
 		margin: 0 0 4rem;
 		padding: 0.25em 1em;
 		-moz-box-sizing: border-box;
@@ -223,7 +223,7 @@ textarea {
 	}
 
 	dl {
-		font-family: 'Noto Sans SC', serif;
+		font-family: 'Noto Serif SC', serif;
 		margin: 0 0 4rem;
 		padding-left: 30px;
 	}
@@ -274,7 +274,7 @@ textarea {
 
 	pre {
 		position: relative;
-		margin: 0 0 4rem;
+		margin: 0 0 2rem;
 		padding: 1em;
 		overflow: hidden;
 		font-family: 'Ubuntu Mono', monospace, sans-serif;
@@ -842,11 +842,7 @@ textarea {
 }
 
 .blog-description {
-<<<<<<< HEAD
-	font-family: 'Noto Sans SC', serif;
-=======
-	font-family: var(--font-secondary);
->>>>>>> upstream/master
+	font-family: 'Noto Serif SC', serif;
 	display: block;
 	margin-top: 1rem;
 	padding: 0;
@@ -916,11 +912,7 @@ textarea {
 		font-size: 2em;
 		line-height: 1.5em;
 		margin: 1rem 0;
-<<<<<<< HEAD
-		font-family: 'Noto Sans SC', serif;
-=======
-		font-family: var(--font-secondary);
->>>>>>> upstream/master
+		font-family: 'Noto Serif SC', serif;
 		color: $color-text-secondary;
 		@media (prefers-color-scheme: dark) {
 			color: $color-text-secondary-dark;
@@ -1888,15 +1880,9 @@ textarea {
 
 .post-excerpt {
 	margin: 1em 0 0;
-<<<<<<< HEAD
-	font-family: 'Noto Sans SC', serif;
+	font-family: 'Noto Serif SC', serif;
 	font-size: 1.75em;
 	line-height: 2em;
-=======
-	font-family: var(--font-secondary);
-	font-size: 2em;
-	line-height: 1.5em;
->>>>>>> upstream/master
 }
 
 .post-content {
@@ -2310,11 +2296,7 @@ textarea {
 .post-nav-excerpt {
 	height: 5rem;
 	margin: 0 0 1rem;
-<<<<<<< HEAD
-	font-family: 'Noto Sans SC', serif;
-=======
-	font-family: var(--font-secondary);
->>>>>>> upstream/master
+	font-family: 'Noto Serif SC', serif;
 	font-size: 1.75em;
 	line-height: 2.5rem;
 	display: -webkit-box;
@@ -2446,3 +2428,4 @@ textarea {
 		}
 	}
 }
+
